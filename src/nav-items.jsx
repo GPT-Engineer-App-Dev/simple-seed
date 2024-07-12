@@ -1,4 +1,4 @@
-import { Home, Placeholder } from "lucide-react";
+import { Home, Layout } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import PlaceholderPage from "./pages/PlaceholderPage.jsx";
 
@@ -15,7 +15,7 @@ export const navItems = [
   {
     title: "Placeholder",
     to: "/placeholder",
-    icon: <Placeholder className="h-4 w-4" />,
+    icon: <Layout className="h-4 w-4" />,
     page: <PlaceholderPage />,
   },
 ];
